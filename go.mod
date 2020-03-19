@@ -75,7 +75,7 @@ require (
 
 replace (
 	github.com/Azure/go-autorest => github.com/Azure/go-autorest v11.0.0+incompatible
-	github.com/coreos/prometheus-operator => github.com/coreos/prometheus-operator v0.0.0-20181206002233-dd6f23e7207c
+	github.com/coreos/prometheus-operator => github.com/coreos/prometheus-operator v0.0.0-20190202022740-dd6f23e7207c
 	github.com/go-kit/kit => github.com/go-kit/kit v0.3.0
 	github.com/golang/glog => ./staging/src/github.com/golang/glog
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20191219222812-2987a591a72c
@@ -111,3 +111,5 @@ replace (
 
 	kubevirt.io/client-go => ./staging/src/kubevirt.io/client-go
 )
+
+go 1.13
