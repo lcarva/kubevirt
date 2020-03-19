@@ -8,7 +8,7 @@ require (
 	github.com/containernetworking/plugins v0.8.2
 	github.com/coreos/go-iptables v0.4.3
 	github.com/coreos/go-semver v0.3.0
-	github.com/coreos/prometheus-operator v0.35.0
+	github.com/coreos/prometheus-operator v0.0.0-20190202022740-dd6f23e7207c
 	github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c // indirect
 	github.com/elazarl/goproxy v0.0.0-20190421051319-9d40249d3c2f // indirect
 	github.com/elazarl/goproxy/ext v0.0.0-20190421051319-9d40249d3c2f // indirect
@@ -44,6 +44,7 @@ require (
 	github.com/onsi/gomega v1.7.0
 	github.com/openshift/api v0.0.0-20191219222812-2987a591a72c
 	github.com/openshift/client-go v0.0.0-20191125132246-f6563a70e19a
+	github.com/openshift/custom-resource-status v0.0.0-20190822192428-e62f2f3b79f3 // indirect
 	github.com/operator-framework/go-appr v0.0.0-20180917210448-f2aef88446f2 // indirect
 	github.com/operator-framework/operator-lifecycle-manager v0.0.0-20190128024246-5eb7ae5bdb7a
 	github.com/operator-framework/operator-marketplace v0.0.0-20190508022032-93d436f211c1
@@ -66,8 +67,8 @@ require (
 	k8s.io/apimachinery v0.16.4
 	k8s.io/client-go v12.0.0+incompatible
 	k8s.io/kube-aggregator v0.16.4
+	k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a // indirect
 	k8s.io/utils v0.0.0-20190801114015-581e00157fb1
-	kubevirt.io/client-go v0.0.0-00010101000000-000000000000
 	kubevirt.io/containerized-data-importer v1.10.9
 	kubevirt.io/qe-tools v0.1.3-0.20190512140058-934db0579e0c
 	sigs.k8s.io/controller-runtime v0.1.9 // indirect
@@ -75,7 +76,7 @@ require (
 
 replace (
 	github.com/Azure/go-autorest => github.com/Azure/go-autorest v11.0.0+incompatible
-	github.com/coreos/prometheus-operator => github.com/coreos/prometheus-operator v0.0.0-20181206002233-dd6f23e7207c
+	github.com/coreos/prometheus-operator => github.com/coreos/prometheus-operator v0.0.0-20190202022740-dd6f23e7207c
 	github.com/go-kit/kit => github.com/go-kit/kit v0.3.0
 	github.com/golang/glog => ./staging/src/github.com/golang/glog
 	github.com/openshift/api => github.com/openshift/api v0.0.0-20191219222812-2987a591a72c
@@ -111,3 +112,5 @@ replace (
 
 	kubevirt.io/client-go => ./staging/src/kubevirt.io/client-go
 )
+
+go 1.13
