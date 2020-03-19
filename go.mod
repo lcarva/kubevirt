@@ -37,7 +37,7 @@ require (
 	github.com/libvirt/libvirt-go v5.0.0+incompatible
 	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/mattn/go-runewidth v0.0.0-20181218000649-703b5e6b11ae // indirect
-	github.com/mfranczy/crd-rest-coverage v0.1.0
+	github.com/mfranczy/crd-rest-coverage v0.0.0-20191018111409-6aaaecb69ead
 	github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b
 	github.com/onsi/ginkgo v1.10.1
 	github.com/onsi/gomega v1.7.0

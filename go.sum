@@ -291,8 +291,8 @@ github.com/mattn/go-sqlite3 v1.10.0/go.mod h1:FPy6KqzDD04eiIsT53CuJW3U88zkxoIYsO
 github.com/matttproud/golang_protobuf_extensions v1.0.1 h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
 github.com/maxbrunsfeld/counterfeiter v0.0.0-20181017030959-1aadac120687/go.mod h1:aoVsckWnsNzazwF2kmD+bzgdr4GBlbK91zsdivQJ2eU=
-github.com/mfranczy/crd-rest-coverage v0.1.0 h1:235kOdqFQ6Io+hsI/SvHfoYDHkSNEmb7cu6TG24O93Y=
-github.com/mfranczy/crd-rest-coverage v0.1.0/go.mod h1:yRun7BqJIqQC+myEhfhMvbImzQ5IOE4tAlln5KDIfqQ=
+github.com/mfranczy/crd-rest-coverage v0.0.0-20191018111409-6aaaecb69ead h1:9BrC0EwAud++hYu6DPqGEaEpJnx7J005XLh1xc+2ZiQ=
+github.com/mfranczy/crd-rest-coverage v0.0.0-20191018111409-6aaaecb69ead/go.mod h1:yRun7BqJIqQC+myEhfhMvbImzQ5IOE4tAlln5KDIfqQ=
 github.com/mitchellh/go-homedir v1.1.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
 github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b h1:9+ke9YJ9KGWw5ANXK6ozjoK47uI3uNbXv4YVINBnGm8=
 github.com/mitchellh/go-ps v0.0.0-20190716172923-621e5597135b/go.mod h1:r1VsdOzOPt1ZSrGZWFoNhsAedKnEd6r9Np1+5blZCWk=
